@@ -1,0 +1,256 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body {
+    color: #000000;
+    background-color: #CCCCCC;
+  }
+.cuerpoInfo{
+    background-color: #008000;
+    width: 100%;
+    height: 100%;
+    border: 3px solid black;
+    border-radius: 4px;
+}
+.logoEtto{
+    width: 20rem;
+    border: black 3px solid;
+    border-radius: 3px;
+}
+.itemNav{
+    font-size: 1.5rem;
+    color: black;
+    text-transform: uppercase;
+}
+.logoSimple{
+    width: 13rem;
+    height: 13rem;
+}
+.tituloPags{
+    font-size: 60px;
+    background-color: #51c060;
+    border: black 3px solid;
+    padding: 0% 1%;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.ettoFooter{
+    padding-left: 0.5rem;
+}
+@media (max-width: 767px) {
+    .cuerpoInfo {
+      flex-wrap: wrap;
+    }
+    
+    .ettoFooter {
+      flex-basis: 100%;
+    }
+  }
+.mainGeneral {
+    background-color: #008000;
+    border: black solid 3px;
+    border-radius: 7px;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 15px
+}
+.tituloProducto{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.tituReparto, .tituDestinos {
+    margin-bottom: 15px;
+}
+.reparto, .destinos {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.reparto ol, .destinos ul {
+    padding-left: 30px;
+}
+.reparto a, .destinos li {
+    color: #000000;
+}
+.activaGeneral{
+  .mainGeneral {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        background-color: #f7f7f7;
+      }
+  .tituloPags {
+        color: black;
+      }
+  
+  .tituloProducto {
+        margin-top: 30px;
+        color: black;
+      }
+  
+  .productoHijo {
+        max-width: 100%;
+        margin: 10px;
+      }
+  
+  .precioProducto {
+        display: block;
+        margin-top: 5px;
+        font-weight: bold;
+      }
+}
+.btn-comprar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.imagen{
+    width: 30%;
+    height: 30%;
+    margin: 1%;
+    border: black solid 5px;
+    border-radius: 10px;
+}
+.linkTitulo{
+    width: 320px;
+    background-color: rgb(16, 182, 16);    
+    text-align: center;
+    border: black solid 2px;
+    border-radius: 10px;
+}
+a{
+    color: black;
+    text-decoration: none;   
+    font-weight: bold;
+}
+.link{
+    background-color: #14ca2c;
+    background-position: center;
+    width: 150px;
+    margin: 3px 30px 3px 70px;   
+    border: black solid 4px;    
+    text-align: center;
+    border-radius: 10px;
+    list-style: none;
+}
+.reparto{
+    background-color: #51c060; 
+    border-radius: 3px;
+    border: black 3px solid;
+    font-size: 20px;
+    padding: 10px 20px 15px 30px;
+    margin: 10px;
+}
+.destinos{
+    background-color: #51c060; 
+    border: black 3px solid;
+    border-radius: 3px;
+    font-size: 20px;
+    padding: 10px 20px 15px 30px;
+    margin: 10px;
+}
+.tituDestinos{
+    background-color: #41c452;
+    border: black solid 3px;
+    border-radius: 4px;
+}
+.tituReparto{
+    background-color: #249933;
+    border: black solid 3px;
+    border-radius: 4px;
+}
+.tituloProducto{
+    font-size: 60px;
+    background-color: #51c060;
+    border: black 3px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    align-items: center;
+}
+.productoHijo{
+    width: 300px;
+    height: 300px;
+    border: black solid 3px;
+    border-radius: 10px;
+}
+.pieProducto{
+    font-size: 25px;
+    text-align: center;
+    background-color: #249933;
+    border: black 3px solid;
+    border-radius: 10px;
+}
+.mapa{
+    display: flex;
+    flex-direction: column;
+}
+.mapaTitulo{
+    font-size: 30px;
+    background-color: #51c060;
+    border: black 3px solid;
+    border-radius: 10px;
+}
+.mapaLink{
+    background-color: #249933;
+    border: black 3px solid;
+    border-radius: 10px;
+    font-size: 30px;
+    text-align: center;   
+    margin: 2px 100px;
+}
+.imgLocalTitu{
+    font-size: 30px;
+    background-color: #51c060;
+    border: black 3px solid;
+    border-radius: 10px;
+    padding: 5px;
+}
+.imgLocal{
+    background-color: #51c060;
+    width: 95%;
+    border: black 3px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.tituformulario .form-black {
+    color: #000000;
+  }
+.formulario{
+    background-color: #51c060;
+    margin: 4px;
+    border: black solid 5px;   
+    border-radius: 20px;
+    padding: 0% 2% 2% 2%;
+}
+.tituformulario{
+    background-color: #249933;
+    margin: 30px;
+    padding: 10px;
+    border: black solid 4px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 50px;
+}
+.finalPie{
+    background-color: #14ca2c;
+    border: black solid 3px;
+    border-radius: 5px;
+    padding-top: 20px;
+    margin: 0%; 
+}
+.nuestraHistoria{
+    padding: 2%;
+    font-size: 30px;   
+}
